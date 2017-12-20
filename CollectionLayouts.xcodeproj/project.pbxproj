@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DBB327535D1E4201FD0445C /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF49E5C895BE9710DC8BC1C /* SnapKit.framework */; };
 		63A34B021FBC6C6B00D65C9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B011FBC6C6B00D65C9B /* AppDelegate.swift */; };
 		63A34B041FBC6C6B00D65C9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B031FBC6C6B00D65C9B /* ViewController.swift */; };
-		63A34B071FBC6C6B00D65C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A34B051FBC6C6B00D65C9B /* Main.storyboard */; };
 		63A34B091FBC6C6B00D65C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A34B081FBC6C6B00D65C9B /* Assets.xcassets */; };
 		63A34B0C1FBC6C6B00D65C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A34B0A1FBC6C6B00D65C9B /* LaunchScreen.storyboard */; };
+		63A34B141FBC726F00D65C9B /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B131FBC726F00D65C9B /* GridLayout.swift */; };
+		63A34B171FBC73C500D65C9B /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B151FBC73C500D65C9B /* GridCell.swift */; };
+		63A34B181FBC73C500D65C9B /* GridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A34B161FBC73C500D65C9B /* GridCell.xib */; };
+		63A34B1B1FBC7CAF00D65C9B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B191FBC7CAF00D65C9B /* ListCell.swift */; };
+		63A34B1C1FBC7CAF00D65C9B /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63A34B1A1FBC7CAF00D65C9B /* ListCell.xib */; };
+		63A34B1E1FBC805100D65C9B /* UniversalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A34B1D1FBC805100D65C9B /* UniversalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63A34AFE1FBC6C6B00D65C9B /* CollectionLayouts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionLayouts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A34B011FBC6C6B00D65C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A34B031FBC6C6B00D65C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63A34B061FBC6C6B00D65C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63A34B081FBC6C6B00D65C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A34B0B1FBC6C6B00D65C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A34B0D1FBC6C6B00D65C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A34B131FBC726F00D65C9B /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		63A34B151FBC73C500D65C9B /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		63A34B161FBC73C500D65C9B /* GridCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridCell.xib; sourceTree = "<group>"; };
+		63A34B191FBC7CAF00D65C9B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		63A34B1A1FBC7CAF00D65C9B /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		63A34B1D1FBC805100D65C9B /* UniversalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalCell.swift; sourceTree = "<group>"; };
+		8BF49E5C895BE9710DC8BC1C /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DBB327535D1E4201FD0445C /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,7 @@
 			children = (
 				63A34B001FBC6C6B00D65C9B /* CollectionLayouts */,
 				63A34AFF1FBC6C6B00D65C9B /* Products */,
+				FF2C5D8CC4D3B0FED43D5C8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +70,25 @@
 			children = (
 				63A34B011FBC6C6B00D65C9B /* AppDelegate.swift */,
 				63A34B031FBC6C6B00D65C9B /* ViewController.swift */,
-				63A34B051FBC6C6B00D65C9B /* Main.storyboard */,
 				63A34B081FBC6C6B00D65C9B /* Assets.xcassets */,
 				63A34B0A1FBC6C6B00D65C9B /* LaunchScreen.storyboard */,
 				63A34B0D1FBC6C6B00D65C9B /* Info.plist */,
+				63A34B131FBC726F00D65C9B /* GridLayout.swift */,
+				63A34B151FBC73C500D65C9B /* GridCell.swift */,
+				63A34B161FBC73C500D65C9B /* GridCell.xib */,
+				63A34B191FBC7CAF00D65C9B /* ListCell.swift */,
+				63A34B1A1FBC7CAF00D65C9B /* ListCell.xib */,
+				63A34B1D1FBC805100D65C9B /* UniversalCell.swift */,
 			);
 			path = CollectionLayouts;
+			sourceTree = "<group>";
+		};
+		FF2C5D8CC4D3B0FED43D5C8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF49E5C895BE9710DC8BC1C /* SnapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +101,7 @@
 				63A34AFA1FBC6C6B00D65C9B /* Sources */,
 				63A34AFB1FBC6C6B00D65C9B /* Frameworks */,
 				63A34AFC1FBC6C6B00D65C9B /* Resources */,
+				546B461786703FB48A35A394 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -124,34 +152,50 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A34B0C1FBC6C6B00D65C9B /* LaunchScreen.storyboard in Resources */,
+				63A34B1C1FBC7CAF00D65C9B /* ListCell.xib in Resources */,
+				63A34B181FBC73C500D65C9B /* GridCell.xib in Resources */,
 				63A34B091FBC6C6B00D65C9B /* Assets.xcassets in Resources */,
-				63A34B071FBC6C6B00D65C9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		546B461786703FB48A35A394 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63A34AFA1FBC6C6B00D65C9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A34B141FBC726F00D65C9B /* GridLayout.swift in Sources */,
 				63A34B041FBC6C6B00D65C9B /* ViewController.swift in Sources */,
 				63A34B021FBC6C6B00D65C9B /* AppDelegate.swift in Sources */,
+				63A34B1E1FBC805100D65C9B /* UniversalCell.swift in Sources */,
+				63A34B1B1FBC7CAF00D65C9B /* ListCell.swift in Sources */,
+				63A34B171FBC73C500D65C9B /* GridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63A34B051FBC6C6B00D65C9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63A34B061FBC6C6B00D65C9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63A34B0A1FBC6C6B00D65C9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -197,6 +241,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -254,6 +302,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
